@@ -1,17 +1,17 @@
 # Site settings
-title: "Tina + Mark"
+title: "Nic + Emma"
 description: |
-    San Ramon, California
+    Belleville, Ontario
 
-    November 11, 2018
-owner: Mark Cerqueira
-first_published: 2017
-email: mark@mark.gg
+    August 24, 2019
+owner: Nic Durish
+first_published: 2019
+email: wildy.bus@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.tinaandmark.com" # the base hostname & protocol for your site
+url: "www.nicandemma.ca"
 
 social:
-  github: https://github.com/markcerqueira/wedding-site
+  github: https://github.com/NicAndEmma/NicAndEmma.Github.io
 
 # Build settings
 markdown: kramdown
