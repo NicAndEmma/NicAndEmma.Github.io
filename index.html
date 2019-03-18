@@ -1,13 +1,37 @@
 ---
 layout: landing
 ---
+<script LANGUAGE="JavaScript">
+function getDaysUntilWed() {
+    var oneMinute = 60 * 1000
+    var oneHour = oneMinute * 60
+    var oneDay = oneHour * 24
+    var today = new Date()
+    var nextWed = new Date()
+    nextWed.setMonth(07)
+    nextWed.setDate(24)
+    if (today.getMonth() == 07 && today.getDate() > 24) {
+        nextWed.setFullYear(nextWed.getFullYear() + 1)
+    }
+    var diff = nextWed.getTime() - today.getTime()
+    diff = Math.floor(diff/oneDay)
+    return diff
+}
+</script>
 
 <section id="banner">
   <div class="inner">
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
+    <p>
+		<script LANGUAGE="JavaScript">
+		var header = "In <I>" + getDaysUntilWed()  + "</I> "
+		header += "days."
+		document.write(header)
+		</script>
+    </p>
   </div>
-  <a href="#intro" class="more scrolly">Details</a>
+  <a href="#details" class="more scrolly">Details</a>
 </section>
 
 <section id="details" class="wrapper style1 special">
