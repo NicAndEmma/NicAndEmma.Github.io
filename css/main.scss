@@ -1753,8 +1753,15 @@ $baseurl: '{{ site.baseurl }}/images';
 
 /* Footer */
 
+	.icons{
+		margin-bottom:0em;
+	}
+	.copyright{
+		margin-bottom:1em;
+	}
+
 	#footer {
-		@include padding(6em, 0);
+		@include padding(1em, 0);
 		background-color: darken(_palette(bg), 8);
 		text-align: center;
 
