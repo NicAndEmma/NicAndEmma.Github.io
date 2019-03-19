@@ -17,6 +17,9 @@
   <meta name="msapplication-TileImage" content="{{ "/ms-icon-144x144.png" | prepend: site.baseurl }}">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- google analytics -->
-  {% if site.google_analytics and jekyll.environment == 'production' %}{% include analytics.html %}{% endif %}
+  <!-- Google Analytics -->
+  
+  <!--{% if site.google_analytics and jekyll.environment == 'production' %}-->
+  {% include analytics.html %}
+  <!--{% endif %}-->
 </head>
