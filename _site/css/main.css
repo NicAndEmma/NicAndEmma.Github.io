@@ -2624,10 +2624,20 @@ body.is-mobile #main > header {
 
 /* Footer */
 .icons {
-  margin-bottom: 0em; }
+  margin-bottom: 0em;
+  margin-top: 0em; }
 
 .copyright {
   margin-bottom: 1em; }
+
+.question-redirect {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2em;
+  letter-spacing: 0.225em;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  margin-bottom: 0px; }
 
 #footer {
   padding: 1em 0 0.1em 0 ;

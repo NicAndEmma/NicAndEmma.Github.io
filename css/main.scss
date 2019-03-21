@@ -1755,9 +1755,19 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	.icons{
 		margin-bottom:0em;
+		margin-top:0em;
 	}
 	.copyright{
 		margin-bottom:1em;
+	}
+	.question-redirect{
+		color: _palette(fg-light);
+		font-size: 1.2em;
+		letter-spacing: _size(letter-spacing-alt);
+		list-style: none;
+		padding: 0;
+		text-transform: uppercase;
+		margin-bottom:0px;
 	}
 
 	#footer {
