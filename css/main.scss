@@ -19,6 +19,66 @@ br {
    margin: 10px 0 !important;
 }
 
+h4 {
+	padding-bottom: 6px !important;
+	/*border: 0 !important;
+	margin-bottom: 0 !important;*/
+	font-weight: 650 !important;
+}
+
+.no-margin {
+	margin: 0px;
+}
+
+.info-container {
+	position: relative;
+	display: inline-flex;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+.section-text {
+	text-align: justify;
+	font-size: 100%;
+	line-height: 1.5em;
+}
+
+.section-div{
+	margin: auto;
+}
+
+.inline-circle-img-left {
+	float: left;
+	display: inline;
+	margin: auto;
+	margin-right: 20px;
+	vertical-align: middle;
+	width: 180px;
+	height: 180px;
+}
+
+.inline-circle-img-right {
+	float: right;
+	display: inline;
+	margin: auto;
+	margin-left: 20px;
+	vertical-align: middle;
+	width: 180px;
+	height: 180px;
+}
+
+.circle-img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+.party-desc{
+	font-size: 0.9em;
+	line-height: 1.3em;
+	padding-top: 5px;
+}
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @n33co
@@ -1034,6 +1094,10 @@ br {
 
 			.image {
 				width: 100%;
+			}
+
+			.party {
+				width: 32.5%;
 			}
 
 			.content {
