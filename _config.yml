@@ -7,7 +7,7 @@ description: |
 owner: Nic Durish
 first_published: 2019
 email: wildy.bus@gmail.com
-baseurl: "/NicAndEmma.Github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
 
 social:
